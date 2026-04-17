@@ -1,0 +1,561 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza Palace",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Italian",
+    "rating": 4.5,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/broken-link-test"
+  },
+  {
+    "id": 2,
+    "name": "Burger Hub",
+    "city": "Chittagong",
+    "country": "Bangladesh",
+    "cuisine": "Fast Food",
+    "rating": 4.2,
+    "price_range": "$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=400&q=60"
+  },
+  {
+    "id": 3,
+    "name": "Spicy House",
+    "city": "Khulna",
+    "country": "Bangladesh",
+    "cuisine": "Asian",
+    "rating": 4.0,
+    "price_range": "$$",
+    "is_open": false,
+    "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400&q=60"
+  },
+  {
+    "id": 4,
+    "name": "Green Leaf",
+    "city": "Sylhet",
+    "country": "Bangladesh",
+    "cuisine": "Vegan",
+    "rating": 4.3,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&q=60"
+  },
+  {
+    "id": 5,
+    "name": "Curry King",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Indian",
+    "rating": 4.6,
+    "price_range": "$$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1604908554027-8e4f1c1ff717?w=400&q=60"
+  },
+
+  {
+    "id": 6,
+    "name": "Sushi Zen",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Japanese",
+    "rating": 4.7,
+    "price_range": "$$$",
+    "is_open": false,
+    "image": "https://images.unsplash.com/photo-1562158070-622a5b8a2f54?w=400&q=60"
+  },
+  {
+    "id": 7,
+    "name": "BBQ Nation",
+    "city": "Rajshahi",
+    "country": "Bangladesh",
+    "cuisine": "BBQ",
+    "rating": 4.1,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1555992336-03a23c9b7d07?w=400&q=60"
+  },
+  {
+    "id": 8,
+    "name": "Ocean Bite",
+    "city": "Cox's Bazar",
+    "country": "Bangladesh",
+    "cuisine": "Seafood",
+    "rating": 4.4,
+    "price_range": "$$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&q=60"
+  },
+  {
+    "id": 9,
+    "name": "Street Eats",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Street Food",
+    "rating": 3.9,
+    "price_range": "$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=400&q=60"
+  },
+  {
+    "id": 10,
+    "name": "Pasta Corner",
+    "city": "Chittagong",
+    "country": "Bangladesh",
+    "cuisine": "Italian",
+    "rating": 4.2,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=400&q=60"
+  },
+
+  {
+    "id": 11,
+    "name": "Kacchi Express",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Bangladeshi",
+    "rating": 4.8,
+    "price_range": "$$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&q=60"
+  },
+  {
+    "id": 12,
+    "name": "Biriyani House",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Bangladeshi",
+    "rating": 4.7,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1563379091339-03246963d51a?w=400&q=60"
+  },
+  {
+    "id": 13,
+    "name": "Fuchka Point",
+    "city": "Sylhet",
+    "country": "Bangladesh",
+    "cuisine": "Street Food",
+    "rating": 4.3,
+    "price_range": "$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1625944232000-5efc2f90f6c1?w=400&q=60"
+  },
+  {
+    "id": 14,
+    "name": "Cha Adda",
+    "city": "Rajshahi",
+    "country": "Bangladesh",
+    "cuisine": "Cafe",
+    "rating": 4.1,
+    "price_range": "$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=60"
+  },
+  {
+    "id": 15,
+    "name": "Grill Master",
+    "city": "Khulna",
+    "country": "Bangladesh",
+    "cuisine": "BBQ",
+    "rating": 4.2,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=400&q=60"
+  },
+
+  {
+    "id": 16,
+    "name": "Noodle House",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Chinese",
+    "rating": 4.0,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=400&q=60"
+  },
+  {
+    "id": 17,
+    "name": "Tandoori Nights",
+    "city": "Chittagong",
+    "country": "Bangladesh",
+    "cuisine": "Indian",
+    "rating": 4.5,
+    "price_range": "$$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1605475128023-0f41d1d1a3c1?w=400&q=60"
+  },
+  {
+    "id": 18,
+    "name": "Coffee Corner",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Cafe",
+    "rating": 4.2,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=60"
+  },
+  {
+    "id": 19,
+    "name": "Sea Breeze",
+    "city": "Cox's Bazar",
+    "country": "Bangladesh",
+    "cuisine": "Seafood",
+    "rating": 4.6,
+    "price_range": "$$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400&q=60"
+  },
+  {
+    "id": 20,
+    "name": "Wrap & Roll",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Fast Food",
+    "rating": 4.1,
+    "price_range": "$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088?w=400&q=60"
+  },
+
+  {
+    "id": 21,
+    "name": "Steak House",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Steak",
+    "rating": 4.7,
+    "price_range": "$$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&q=60"
+  },
+  {
+    "id": 22,
+    "name": "Dessert Lab",
+    "city": "Sylhet",
+    "country": "Bangladesh",
+    "cuisine": "Desserts",
+    "rating": 4.4,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&q=60"
+  },
+  {
+    "id": 23,
+    "name": "Ice Cream Hub",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Desserts",
+    "rating": 4.3,
+    "price_range": "$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&q=60"
+  },
+  {
+    "id": 24,
+    "name": "Pizza Town",
+    "city": "Rajshahi",
+    "country": "Bangladesh",
+    "cuisine": "Italian",
+    "rating": 4.0,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=400&q=60"
+  },
+  {
+    "id": 25,
+    "name": "Samosa Street",
+    "city": "Khulna",
+    "country": "Bangladesh",
+    "cuisine": "Street Food",
+    "rating": 3.8,
+    "price_range": "$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&q=60"
+  },
+
+  {
+    "id": 26,
+    "name": "Rice Bowl",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Asian",
+    "rating": 4.1,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1512058564366-c9e3e046bfc6?w=400&q=60"
+  },
+  {
+    "id": 27,
+    "name": "Hot Wings",
+    "city": "Chittagong",
+    "country": "Bangladesh",
+    "cuisine": "Fast Food",
+    "rating": 4.2,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=400&q=60"
+  },
+  {
+    "id": 28,
+    "name": "Dumpling Den",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Chinese",
+    "rating": 4.3,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1546069901-d5bfd2cbfb1f?w=400&q=60"
+  },
+  {
+    "id": 29,
+    "name": "Healthy Bites",
+    "city": "Sylhet",
+    "country": "Bangladesh",
+    "cuisine": "Vegan",
+    "rating": 4.5,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&q=60"
+  },
+  {
+    "id": 30,
+    "name": "Milkshake Bar",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Drinks",
+    "rating": 4.0,
+    "price_range": "$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=400&q=60"
+  },
+
+  {
+    "id": 31,
+    "name": "Sandwich Spot",
+    "city": "Rajshahi",
+    "country": "Bangladesh",
+    "cuisine": "Fast Food",
+    "rating": 3.9,
+    "price_range": "$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1528731708534-816fe59f90cb?w=400&q=60"
+  },
+  {
+    "id": 32,
+    "name": "Thai Spice",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Thai",
+    "rating": 4.6,
+    "price_range": "$$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1548946526-f69e2424cf45?w=400&q=60"
+  },
+  {
+    "id": 33,
+    "name": "Falafel House",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Middle Eastern",
+    "rating": 4.4,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1604908177522-4026c2a4e54c?w=400&q=60"
+  },
+  {
+    "id": 34,
+    "name": "Ramen Stop",
+    "city": "Chittagong",
+    "country": "Bangladesh",
+    "cuisine": "Japanese",
+    "rating": 4.5,
+    "price_range": "$$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1604908177233-5d3df6f7d1e6?w=400&q=60"
+  },
+  {
+    "id": 35,
+    "name": "Pancake World",
+    "city": "Sylhet",
+    "country": "Bangladesh",
+    "cuisine": "Desserts",
+    "rating": 4.3,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=400&q=60"
+  },
+
+  {
+    "id": 36,
+    "name": "Kebab King",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Middle Eastern",
+    "rating": 4.6,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1604908177154-6bb2f8f0b1c6?w=400&q=60"
+  },
+  {
+    "id": 37,
+    "name": "Chowmein Hub",
+    "city": "Khulna",
+    "country": "Bangladesh",
+    "cuisine": "Chinese",
+    "rating": 4.1,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=60"
+  },
+  {
+    "id": 38,
+    "name": "Grill & Chill",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "BBQ",
+    "rating": 4.2,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=400&q=60"
+  },
+  {
+    "id": 39,
+    "name": "Juice Junction",
+    "city": "Sylhet",
+    "country": "Bangladesh",
+    "cuisine": "Drinks",
+    "rating": 4.0,
+    "price_range": "$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1497534446932-c925b458314e?w=400&q=60"
+  },
+  {
+    "id": 40,
+    "name": "Bistro Cafe",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Cafe",
+    "rating": 4.3,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=400&q=60"
+  },
+
+  {
+    "id": 41,
+    "name": "Waffle House",
+    "city": "Chittagong",
+    "country": "Bangladesh",
+    "cuisine": "Desserts",
+    "rating": 4.4,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1506086679525-9c9f5c89c3a3?w=400&q=60"
+  },
+  {
+    "id": 42,
+    "name": "Dim Sum Spot",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Chinese",
+    "rating": 4.5,
+    "price_range": "$$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1559847844-d721426d6edc?w=400&q=60"
+  },
+  {
+    "id": 43,
+    "name": "Taco Town",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Mexican",
+    "rating": 4.2,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&q=60"
+  },
+  {
+    "id": 44,
+    "name": "Fish Fry",
+    "city": "Cox's Bazar",
+    "country": "Bangladesh",
+    "cuisine": "Seafood",
+    "rating": 4.3,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&q=60"
+  },
+  {
+    "id": 45,
+    "name": "Rice & Curry",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Bangladeshi",
+    "rating": 4.6,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=400&q=60"
+  },
+
+  {
+    "id": 46,
+    "name": "Donut Stop",
+    "city": "Sylhet",
+    "country": "Bangladesh",
+    "cuisine": "Desserts",
+    "rating": 4.1,
+    "price_range": "$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1505253213348-cd54c0bbcf35?w=400&q=60"
+  },
+  {
+    "id": 47,
+    "name": "Fried Chicken Hub",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Fast Food",
+    "rating": 4.3,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=400&q=60"
+  },
+  {
+    "id": 48,
+    "name": "Salad Bowl",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Vegan",
+    "rating": 4.5,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&q=60"
+  },
+  {
+    "id": 49,
+    "name": "Pita Pit",
+    "city": "Chittagong",
+    "country": "Bangladesh",
+    "cuisine": "Middle Eastern",
+    "rating": 4.2,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1604908177522-4026c2a4e54c?w=400&q=60"
+  },
+  {
+    "id": 50,
+    "name": "Breakfast Club",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cuisine": "Cafe",
+    "rating": 4.4,
+    "price_range": "$$",
+    "is_open": true,
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&q=60"
+  }
+]
