@@ -10,7 +10,7 @@ function Hero() {
             className="hero min-h-screen"
             style={{
                 backgroundImage:
-                    "url(src/assets/hero-bg.jpg)",
+                    "url(https://i.ibb.co.com/R4BdRTn0/hero-bg.jpg)",
             }}
         >
             <div className="hero-overlay"></div>
