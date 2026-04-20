@@ -20,7 +20,7 @@ function Hero() {
                     <p className="mb-5">
                         Craving something delicious? Discover top fast food spots around you and order instantly for delivery or pickup. Whether it’s a juicy burger, crispy fries, or something fresh, your next meal is just a click away.
                     </p>
-                    <button onClick={scrollToSection} className="btn btn-primary">Get Started</button>
+                    <button onClick={scrollToSection} className="btn btn-primary">Browse Restaurants</button>
                 </div>
             </div>
         </div>

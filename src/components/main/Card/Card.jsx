@@ -6,7 +6,10 @@ function Card(props) {
   const [imgError, setImgError] = useState(false);
 
   return (
-    <div className="card bg-base-100 w-96 shadow-sm mx-auto">
+    <div className="card bg-base-100 w-96 mx-auto  
+            shadow-md 
+            hover:shadow-[0_0_40px_rgba(59,130,246,0.8)]
+            transition duration-300 my-4">
       <figure>
         {imgError ? (
           /* BRANDED FALLBACK: This replaces the image if it fails */
