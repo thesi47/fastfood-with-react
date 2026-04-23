@@ -1,9 +1,10 @@
+import { CircleUserRound } from 'lucide-react'
 import React from 'react'
 
 function Nav() {
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm">
+            <div className="navbar fixed top-0 left-0 w-full z-50 bg-transparent text-white">
                 <div className="flex-1">
                     <a id='nav' className="btn btn-ghost text-xl">THESI'S RESTAURANTS</a>
                 </div>
@@ -31,11 +32,9 @@ function Nav() {
                     </div>
                     <div className="profile-pic dropdown dropdown-end">
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-                            <div className="w-10 rounded-full">
-                                <img
-                                    alt="Tailwind CSS Navbar component"
-                                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-                            </div>
+                            
+                                <CircleUserRound />
+                            
                         </div>
                         <ul
                             tabIndex="-1"

@@ -7,7 +7,7 @@ function Hero() {
     return (
 
         <div
-            className="hero min-h-screen bg-cover bg-center"
+            className="hero min-h-screen bg-cover bg-center relative"
             style={{
                 backgroundImage:
                     "url(https://i.ibb.co.com/R4BdRTn0/hero-bg.jpg)",
@@ -18,11 +18,18 @@ function Hero() {
                 <div className="max-w-md">
                     <h1 className="mb-5 text-5xl font-bold">Find your next meal</h1>
                     <p className="mb-5">
-                        Craving something delicious? Discover top fast food spots around you and order instantly for delivery or pickup. Whether it’s a juicy burger, crispy fries, or something fresh, your next meal is just a click away.
+                        Craving something delicious? Discover top fast food spots around you and order instantly for delivery or pickup. Whether it's a juicy burger, crispy fries, or something fresh, your next meal is just a click away.
                     </p>
                     <button onClick={scrollToSection} className="btn btn-primary">Browse Restaurants</button>
                 </div>
             </div>
+            {/* Bottom fade gradient */}
+            <div
+                className="absolute bottom-0 left-0 w-full h-40 pointer-events-none"
+                style={{
+                    background: 'linear-gradient(to bottom, transparent, var(--color-base-100, #1d232a))',
+                }}
+            ></div>
         </div>
     )
 }
